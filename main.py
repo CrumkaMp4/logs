@@ -69,4 +69,4 @@ for filename in os.listdir("./cogs"):
     if filename.endswith(".py") and not filename.startswith("_"):
         bot.load_extension(f"cogs.{filename[:-3]}")
 
-bot.run("MTAwNTAyNzQwMTQxMzE4MTQ5MA.GTNxka.X6RftKzWzzfkxMsuw9sH53bllnh0auBDY2kzMo")
+bot.run("")
